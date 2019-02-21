@@ -1,0 +1,78 @@
+body {
+    width: 300px;
+    padding: 6px;
+    margin: 6px;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+#calc_result {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+#firstBox {
+    text-align: right;
+    border-style: solid;
+    border-color: #EEEEEE;
+    border-width: 1px;
+    padding: 6px;
+    margin: 6px;
+}
+
+#secondBox {
+    border-style: solid;
+    border-color: #EEEEEE;
+    border-width: 1px;
+    padding: 6px;
+    margin: 6px;
+    position: relative;
+    padding-left: 203px;
+}
+
+#fifthBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%
+}
+
+#fifthBox {
+    position: relative;
+    padding-left: 5em
+}
+
+#thirdBox {
+    background-color: #EEEEEE;
+    padding: 6px;
+    margin: 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+}
+
+#textOne {
+    width: 30px;
+}
+
+#textTwo {
+    width: 30px;
+}
+
+#one {
+    display: flex;
+    align-items: center;
+}
+
+#two {
+    display: flex;
+    align-items: center;
+}
